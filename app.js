@@ -7,14 +7,14 @@ const resultText = document.getElementById('userMessage')
 
 // initialize global state
 let numbGuess = 4;
-
 const randomNumber = Math.floor(Math.random()* 20) + 1;
+
 
 
 // set event listeners 
 guessButton.addEventListener('click', () => {
   const userGuess = Number(entry.value);
-  
+  numbGuess--;
   if (userGuess < randomNumber) {
     resultText.textContent = 'too low';
   } else if(userGuess > randomNumber){

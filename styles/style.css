@@ -3,15 +3,34 @@ body{
     background: linear-gradient(273deg, rgba(144,20,238,1) 0%, rgba(0,255,255,1) 100%);
 }
 
+
+
 h1{
+    font-family: 'Bangers', cursive;
     color: white;
+    text-align: center;
+    
 }
+
+
+#userMessage{
+    color: white;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+
+}
+
 
 h2{
     color: white;
+    font-family: 'Bangers', cursive;
 }
 
-
+#entry{
+    padding: 100px;
+    border-radius: 300px;
+margin-left: 300px;
+}
 
 
 
